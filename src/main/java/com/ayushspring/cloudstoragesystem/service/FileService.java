@@ -25,7 +25,7 @@ public class FileService {
     @Autowired
     private UserRepository userRepository;
 
-    private static final String UPLOAD_DIR = "uploads/";
+    private static final String UPLOAD_DIR = "C:/Users/agoyal/uploads/";
 
     // Handle file upload logic
     public ResponseEntity<String> uploadFile(MultipartFile file, User user) {
